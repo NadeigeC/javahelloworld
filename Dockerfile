@@ -9,5 +9,5 @@ RUN apt-get update && apt-get install -y \
 #CMD ["127.0.0.1"]
 
 RUN mkdir /data/myvol -p && \
-	echo "hello world" > /data/myvol/test
+	echo "hello world, a simple java program" > /data/myvol/test
 VOLUME ["/data/myvol"]
